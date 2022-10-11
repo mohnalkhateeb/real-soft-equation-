@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+  }
+#table table{
+    display: table;
+    border-color:black;
+    border-style:solid;
+    border-width: 0.5em;
+    margin-inline: 35%;
+}
+#table{
+    background-image: url("../mathematics-min.jpg");
+}
+
+td{
+    display: table-cell;
+vertical-align: middle;
+border-width: 5px;
+border-style:solid;
+padding:1em;
+margin: 2em;
+background-color:violet;
+border-color: black;
+font-family: Arial, Helvetica, sans-serif;
+color:black;
+}
+  tr{
+    display: table-row;
+vertical-align: middle;
+border-color:black;
+padding: 1em;
+border-style:solid;
+border-width: 5px;
+}
+th{
+    display: table-cell;
+    vertical-align: middle;
+    border-width: 5px;
+    visibility :border-color ;
+    padding:1em;
+    margin: 2em;
+    background-color:brown; 
+    width: 20px; ;
+    border-style:solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    color:black;
+}
+header
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlx5Bu7M_izevAk3oniz6AwYQSiQlHfyArxA&usqp=CAU);
+    width:100%;
+    height: 250px;
+    background-repeat:repeat;
+    position: sticky;
+    top: 0;
+    background-position:top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1{
+    display: block;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:red;
+}
+header img{
+    display: block;
+    margin-left: 39%;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    width: 300px;
+    border: 1px solid black;
+}
+footer p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ footer
+  {
+    background-color: goldenrod;
+  }
+  form
+{
+    padding: 2em;
+    
+}
+
+input
+{
+    width: 8em;
+    margin-right: 2em;
+}
+button
+{
+    margin-left: 2em;
+    width: 8em;
+}
+fieldset{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 1px solid black;
+}
+legend
+{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+   
+}
+main
+{
+    padding-block: 25px;
+    padding: inline 50px;
+    background-color: skyblue;
+}
