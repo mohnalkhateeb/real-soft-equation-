@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solve-Equation</title>
-    <link href="css/reset.css"  rel="stylesheet" />
-     <link href="css/style.css"  rel="stylesheet" />
-     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
-
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>This web page is designed to solve the following equation : </h1>
-        <img src="equ.png" alt="Equation"  />
+        <img src="equ.png" alt="Equation" />
     </header>
     <main>
-        <section >
+        <section>
             <form action="" id="new-values">
                 <fieldset>
                     <legend>Adding a New values</legend>
                     <label for="a">a</label>
-                        <input id ="a" name="a" type="number">
+                    <input id="a" name="a" type="number">
                     <label for="b">b</label>
-                        <input id="b" name="b" type="number">
-                        <fieldset>
-                            <legend>Numerical Interval of X</legend>
-                            <label for="xfrom">form</label>
+                    <input id="b" name="b" type="number">
+                    <fieldset>
+                        <legend>Numerical Interval of X</legend>
+                        <label for="xfrom">form</label>
                         <input id="xfrom" name="xfrom" type="number">
-                    <label for="xto">to </label>
-                        <input id="xto" name="xto" type="number" >
+                        <label for="xto">to </label>
+                        <input id="xto" name="xto" type="number">
                     </fieldset>
-                    
-                    <input id="submit" name="submit" type="submit"> 
+
+                    <input id="submit" name="submit" type="submit">
                 </fieldset>
             </form>
-        </section >
-            <section id="table">
+        </section>
+        <section id="table">
 
-            </section>
+        </section>
+        <div> 
+            <canvas id="myChart" width="200" height="200"></canvas>
+        </div>
     </main>
     <footer>
         <p class="center">CopyRight @Mohammad</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <script src="app.js"></script>
 </body>
+
 </html>
