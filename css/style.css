@@ -9,7 +9,7 @@
     border-radius: 25px;
 }
 #table{
-    background-image: url(../mathematics-min.jpg);
+    background-image: url(https://online.stanford.edu/sites/default/files/styles/widescreen_tiny/public/2022-02/Linear-Algebra-Multivariable-Calculus-and-Modern-Applications_MATH51.jpg?h=8abcec71&itok=mRKeqWoS);
     background-repeat:repeat;
     padding-block: 2em;
 }
@@ -57,7 +57,7 @@ header
     top: 0;
     background-position:top;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QRYXe3RL-r9hC-LEh1JA7EawQIHdAEX-x9ud-KzRTwX95M7S7wlwWXXvzs1HkhQO9w&usqp=CAU);
+    background-image: url(https://pll.harvard.edu/sites/default/files/styles/header/public/course/APMA_MATH.jpg?itok=qmbcJGbD);
 }
 header h1{
     display: block;
@@ -70,7 +70,7 @@ header h1{
     font-weight: bold;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:greenyellow;
+    color:gold;
 }
 header img{
     display: block;
