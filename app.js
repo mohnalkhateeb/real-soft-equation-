@@ -13,6 +13,7 @@ function calculateEqu(event) {
     let b = event.target.b.value;
     let xfrom = event.target.xfrom.value;
     let xto = event.target.xto.value;
+    if(xfrom > xto){alert("low boundry mush be less than the high boundry")}
     tableEl.innerHTML = ''
     let tableParent = document.getElementById('table')
     tableParent.appendChild(h3El)
