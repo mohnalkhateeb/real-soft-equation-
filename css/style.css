@@ -2,14 +2,16 @@
     box-sizing: border-box;
   }
 #table table{
-    display: table;
+    display:table;
     border-color:black;
     border-style:solid;
     border-width: 0.5em;
-    margin-inline: 35%;
+    border-radius: 25px;
 }
 #table{
-    background-image: url("../mathematics-min.jpg");
+    background-image: url(../mathematics-min.jpg);
+    background-repeat:repeat;
+    padding-block: 2em;
 }
 
 td{
@@ -17,8 +19,7 @@ td{
 vertical-align: middle;
 border-width: 5px;
 border-style:solid;
-padding:1em;
-margin: 2em;
+padding:0.1em;
 background-color:violet;
 border-color: black;
 font-family: Arial, Helvetica, sans-serif;
@@ -48,7 +49,7 @@ th{
 }
 header
 {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlx5Bu7M_izevAk3oniz6AwYQSiQlHfyArxA&usqp=CAU);
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlx5Bu7M_izevAk3oniz6AwYQSiQlHfyArxA&usqp=CAU); */
     width:100%;
     height: 250px;
     background-repeat:repeat;
@@ -56,6 +57,7 @@ header
     top: 0;
     background-position:top;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QRYXe3RL-r9hC-LEh1JA7EawQIHdAEX-x9ud-KzRTwX95M7S7wlwWXXvzs1HkhQO9w&usqp=CAU);
 }
 header h1{
     display: block;
@@ -68,7 +70,7 @@ header h1{
     font-weight: bold;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:red;
+    color:greenyellow;
 }
 header img{
     display: block;
@@ -79,6 +81,15 @@ header img{
     padding-right: 0.75em;
     width: 300px;
     border: 1px solid black;
+    transform: skew(5deg, -10deg);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    border-radius: 10px;
+}
+header img:hover{
+    animation: spin 5s linear infinite;
+    transform: skew(5deg, 30deg);
+    border-radius: 50%;
 }
 footer p{
     text-align: center;
@@ -108,11 +119,12 @@ fieldset{
     display: block;
     margin-left: 2px;
     margin-right: 2px;
-    padding-top: 0.35em;
+    padding-top: 15px;
     padding-bottom: 0.625em;
     padding-left: 0.75em;
     padding-right: 0.75em;
     border: 1px solid black;
+    border-radius: 25px;
 }
 legend
 {
@@ -126,4 +138,7 @@ main
     padding-block: 25px;
     padding: inline 50px;
     background-color: skyblue;
+}
+body{
+    
 }

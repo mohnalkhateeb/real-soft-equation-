@@ -16,24 +16,25 @@ function calculateEqu(event)
    tableEl.innerHTML = ''
     let tableParent = document.getElementById('table')
     tableParent.appendChild(tableEl)
-    let headTr = document.createElement('tr')
-    tableEl.appendChild(headTr)
+    let xTr = document.createElement('tr')
+    tableEl.appendChild(xTr)
     let xHed = document.createElement('th')
     xHed.textContent= ' X '
-    headTr.appendChild(xHed)
+    xTr.appendChild(xHed)
+    let yTr = document.createElement('tr')
+         tableEl.appendChild(yTr)
     let yHed = document.createElement('th')
     yHed.textContent= ' Y(x) '
-    headTr.appendChild(yHed)
+    yTr.appendChild(yHed)
     for(let i=parseInt(xfrom) ;i<= xto ;i++)
     {
-        let valueTr = document.createElement('tr')
-         tableEl.appendChild(valueTr)
+        
         let xValue = document.createElement('td')
         xValue.textContent = i
-        valueTr.appendChild(xValue)
+        xTr.appendChild(xValue)
         let yValue= document.createElement('td')
         yValue.textContent = findYofX(a,b,i)
-        valueTr.appendChild(yValue)
+        yTr.appendChild(yValue)
         
     }
     // let yOfxTr = document.createElement('tr')
@@ -51,5 +52,6 @@ function calculateEqu(event)
 function findYofX(a,b,x)
 {
     let y = ((b-a+1)*(Math.pow(x,3)-b))/(b*Math.pow(x,a)+a*x+a*b)
+    y = y.toFixed(3)
     return y
 }
